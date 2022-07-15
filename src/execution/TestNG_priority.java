@@ -18,12 +18,12 @@ public class TestNG_priority {
 	  driver.get("https://www.google.com");
   }
 
-  @Test(priority=1)
+  @Test(priority=3)
   public void google() {
 	  driver.get("https://www.google.com");
   }
   
-  @Test(priority=3)
+  @Test(priority=1)
   public void facebook() {
 	  driver.get("https://www.facebook.com");
   }
